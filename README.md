@@ -92,9 +92,13 @@ With this information in mind, I decided I'd have to ramp up the timesteps even 
 * `ent_coef` = 0.01
 * **Timesteps** = 500000
 
-The model improved drastically, failing only at sharp turns.
+The model improved drastically, failing only at sharp turns. However, once the car spun off the track, it wasn't able to recover or get back on track, aimlessly spinning in circles. 
+
+<img width="800" height="663" alt="1783283906000961-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/8dfdc201-e0eb-4b9d-bf64-4d607f501209" />
 
 
+## Challenges
+I made adjustments and tried to penalize it for spinning but that only results in the car not moving, again. Still working on improving the model. 
 
 
 
